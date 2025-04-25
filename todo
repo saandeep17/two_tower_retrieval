@@ -1,0 +1,10 @@
+#ToDo:
+
+'''
+1. separate the data into train, validation, and test sets. 
+  80% for train and 10% for validation and test each based on the timestamps
+2. Define recall metric as the metric to optimize. For a given user, we have ground truth i.e., list of movies with high rating for that user
+   define recall metric as number of valid recommendations in the top-k reteivals as defined here: https://arxiv.org/pdf/2006.11632
+3. integrate with comet-ml for viz
+
+'''
